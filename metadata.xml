@@ -1,0 +1,14 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://amare605.github.io/metadata.xml">
+    <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <KeyDescriptor use="signing">
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate> MIID7zCCAtegAwIBAgIUcVzQaL3kDJ9j8nNPXTPKkT4lGXEwDQYJKoZIhvcNAQEL BQAwgYYxCzAJBgNVBAYTAlRXMQ8wDQYDVQQIDAZUYWlwZWkxDzANBgNVBAcMBlRh aXBlaTEMMAoGA1UECgwDTlRUMQwwCgYDVQQLDANOVFQxDDAKBgNVBAMMA05UVDEr MCkGCSqGSIb3DQEJARYcFnN0YW4ud2FuZ0BjaGluYS5udHRkYXRhLmNvbTAeFw0y NDA3MDEwMzQ2MzNaFw0yNTA3MDEwMzQ2MzNaMIGGMQswCQYDVQQGEwJUVzEPMA0G A1UECAwGVGFpcGVpMQ8wDQYDVQQHDAZUYWlwZWkxDDAKBgNVBAoMA05UVDEMMAoG A1UECwwDTlRUMQwwCgYDVQQDDANOVFQxKzApBgkqhkiG9w0BCQEWHBZzdGFuLndh bmdAY2hpbmEubnR0ZGF0YS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK AoIBAQCQVy3IVmQxkcv3DdBJN7ZR8euSg6cLw+JgASgU1elPLNDtlzChSbsMSaVk sks78CGC+sv8VCE8w8bA0RVUEeMxHvA/ylW7UNv4MNd+W6aIS85TdWIqV1qzbdrB KT1xcHwM25BQNPmH5l8U1ovVhuB3il1UKd0Oc/OGgF9DucnDESa26aN6mCH+O6+d +obgSu2h8+RHChhadWnyVGJvHcpx8gQJJTE66MyJTdhgJv1j+rQpynDOjhMY+PRH bZ0/VpCK8lddrORyWQwzO/zUmGNIb8wwtsHKxOOfSj4NyLYgsniDM3TAPZzMy7N2 y7nBZ5X8ryPL6ue80uW++ckkCfgZAgMBAAGjUzBRMB0GA1UdDgQWBBSb+6WtDhrV g+1GJaJQW3mtaonPgTAfBgNVHSMEGDAWgBSb+6WtDhrVg+1GJaJQW3mtaonPgTAP BgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAc5/SSxxyu+jqKNzNr BP1Wmz6vP9hhO2HHlFkRh1bU0dZoT3iZdc0wYqmbQbNvce6ITwq/juNjsLdmrr4r hXfThTfolF3BxL+SaHwXwypGVtOvEC6rXEnkDjh9C/k5OBMylOZOPwkoIP0cJzfJ qktom2jb4MxYj6xYivveCItDmeR8W/oKg6wp7OpAomy9AeHeWRdLZkCRL9ZFk1Nq 6qKf+HCl9sUNeGyZ2gzuHnu8KcO6L7LmGllORjmfCMjRQEqxhHgxytvw4TDfk+4w 3f51g6EJQtadqZUvpMjvyzJWKbGCdD2lVwEwXdZLBDCBQOuZIl1ZL3fFNV0IoeXq CsP+ </X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </KeyDescriptor>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:7000/login"/>
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:7000/logout"/>
+        <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
+    </IDPSSODescriptor>
+</EntityDescriptor>
