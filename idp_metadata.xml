@@ -1,4 +1,4 @@
-<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://amare605.github.io/idp_metadata.xml">
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://amare605.github.io/metadata.xml">
     <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
         <KeyDescriptor use="signing">
             <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
